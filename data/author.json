@@ -1,0 +1,14 @@
+[
+  {
+    "id": "Bartosz Sekuła",
+    "bio": "I am a passionate developer. Always willing to learn something new.",
+    "avatar": "avatars/bartosz.sekula.png",
+    "github": "@advanced-cms"
+  },
+  {
+    "id": "Grzegorz Wiecheć",
+    "bio": "Software developer interested in Web and Enterprise solutions.",
+    "avatar": "avatars/grzegorz.wiechec.jpg",
+    "github": "@advanced-cms"
+  }
+]
