@@ -62,18 +62,22 @@ const IndexPage = (props: LayoutProps) =>
         <Grid.Row>
           <Grid.Column>
             <Header icon>
-              <Icon name="edit"></Icon>
-              Advanced Reviews
+              <a target="_blank" href="https://github.com/advanced-cms/advanced-reviews">
+                <Icon name="edit" />
+                Advanced Reviews
+              </a>
             </Header>
             <p>
               An improvement to the reviewing process that lets external users to view & review content
-              without the need to access the Edit Mode.
+              items or projects without the need to access the Edit Mode.
             </p>
           </Grid.Column>
           <Grid.Column>
             <Header icon>
-              <Icon name="history"></Icon>
-              Advanced Compare
+              <a target="_blank" href="https://github.com/advanced-cms/advanced-compare">
+                <Icon name="history" />
+                Advanced Compare
+              </a>
             </Header>
             <p>
               Allow the editor to see how each page looked in different points in time. Every dependent
@@ -82,7 +86,7 @@ const IndexPage = (props: LayoutProps) =>
           </Grid.Column>
           <Grid.Column>
             <Header icon>
-              <Icon name="grid layout"></Icon>
+              <Icon name="grid layout" />
               Content Grid (coming soon!)
             </Header>
             <p>
