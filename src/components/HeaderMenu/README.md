@@ -10,7 +10,7 @@ Header menu component.
 
     const items = [
         {name: "Home", path: "/", exact: true},
-        {name: "About", path: "/about/", exact: true},
+        {name: "About us", path: "/about-us/", exact: true},
         {name: "Blog", path: "/blog/", exact: false},
     ];
 

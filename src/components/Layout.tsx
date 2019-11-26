@@ -12,6 +12,7 @@ import {store} from "../store";
 
 export const menuItems = [
   {name: "Home", path: "/", exact: true, icon: "home", inverted: true},
+  // {name: "About us", path: "/about-us/", exact: true, icon: "info circle"},
   // { name: "Projects", path: "/projects/", exact: true, icon: "info circle" },
   {name: "Blog", path: "/blog/", exact: false, icon: "newspaper"},
 ];

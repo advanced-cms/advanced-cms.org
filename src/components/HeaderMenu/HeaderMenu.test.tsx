@@ -9,7 +9,7 @@ configure({adapter: new Adapter()});
 
 const items = [
   {name: "Home", path: "/", exact: true},
-  {name: "About", path: "/about/", exact: true},
+  {name: "About us", path: "/about-us/", exact: true},
   {name: "Blog", path: "/blog/", exact: false},
 ];
 
@@ -34,10 +34,10 @@ describe("HeaderMenu component", () => {
       <HeaderMenu
         Link={LinkStub}
         items={items}
-        pathname="/about/"
+        pathname="/about-us/"
         dispatch={dispatchStub} />,
     );
-    expect(wrapper.find({name: "About"}).prop("active")).toBeTruthy();
+    expect(wrapper.find({name: "About us"}).prop("active")).toBeTruthy();
   });
 
   it("should have blog as active (match not exact)", () => {

@@ -73,7 +73,7 @@ initialize {
         "next": Object {
           "attribs": Object {
             "class": "item",
-            "to": "/about/",
+            "to": "/about-us/",
           },
           "children": Array [
             Object {
@@ -85,7 +85,7 @@ initialize {
               "name": "i",
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": Object {
-                "data": "About",
+                "data": "About us",
                 "next": null,
                 "parent": [Circular],
                 "prev": [Circular],
@@ -104,7 +104,7 @@ initialize {
               },
             },
             Object {
-              "data": "About",
+              "data": "About us",
               "next": null,
               "parent": [Circular],
               "prev": Object {
@@ -236,7 +236,7 @@ initialize {
       Object {
         "attribs": Object {
           "class": "item",
-          "to": "/about/",
+          "to": "/about-us/",
         },
         "children": Array [
           Object {
@@ -248,7 +248,7 @@ initialize {
             "name": "i",
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": Object {
-              "data": "About",
+              "data": "About us",
               "next": null,
               "parent": [Circular],
               "prev": [Circular],
@@ -267,7 +267,7 @@ initialize {
             },
           },
           Object {
-            "data": "About",
+            "data": "About us",
             "next": null,
             "parent": [Circular],
             "prev": Object {
@@ -527,7 +527,7 @@ initialize {
         "prev": Object {
           "attribs": Object {
             "class": "item",
-            "to": "/about/",
+            "to": "/about-us/",
           },
           "children": Array [
             Object {
@@ -539,7 +539,7 @@ initialize {
               "name": "i",
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": Object {
-                "data": "About",
+                "data": "About us",
                 "next": null,
                 "parent": [Circular],
                 "prev": [Circular],
@@ -558,7 +558,7 @@ initialize {
               },
             },
             Object {
-              "data": "About",
+              "data": "About us",
               "next": null,
               "parent": [Circular],
               "prev": Object {

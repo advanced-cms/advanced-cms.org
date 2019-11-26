@@ -10,7 +10,7 @@ import {SidebarMenu} from "./SidebarMenu";
 
 const items = [
   {name: "Home", path: "/", exact: true, icon: "home"},
-  {name: "About", path: "/about/", exact: true, icon: "info circle"},
+  {name: "About us", path: "/about-us/", exact: true, icon: "info circle"},
   {name: "Blog", path: "/blog/", exact: false, icon: "newspaper"},
 ];
 
