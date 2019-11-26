@@ -3,7 +3,7 @@ function getFeed(authorDisplayName, author) {
         serialize: ({ query: { site, allMarkdownRemark } }) => {
             return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
-                    description: edge.node.excerpt,
+                    description: edge.node.frontmatter.description || edge.node.excerpt,
                     author: edge.node.frontmatter.author.id,
                     date: edge.node.frontmatter.createdDate,
                     url: site.siteMetadata.siteUrl + edge.node.fields.slug,
@@ -22,6 +22,7 @@ function getFeed(authorDisplayName, author) {
                       fields { slug }
                       frontmatter {
                         title
+                        description
                         createdDate
                         author {
                             id

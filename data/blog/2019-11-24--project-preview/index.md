@@ -1,5 +1,5 @@
 ---
-title: Project Preview
+title: Anonymous Project Preview
 createdDate: "2019-11-24"
 updatedDate: "2019-11-24"
 author: Bartosz Sekuła
