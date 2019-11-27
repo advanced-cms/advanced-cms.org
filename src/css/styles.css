@@ -48,6 +48,11 @@
   clear: both;
 }
 
+p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
 .ui.vertical.stripe p {
   font-size: 1.33em;
 }
@@ -100,4 +105,11 @@ pre {
   overflow: auto;
   border-radius: 0.3em;
   background: #272822;
+}
+
+.gatsby-resp-image-image {
+  border: 1px #ddd solid;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: none !important;
 }
