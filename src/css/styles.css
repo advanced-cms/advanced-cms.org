@@ -48,7 +48,9 @@
   clear: both;
 }
 
-p {
+p,
+li,
+.gatsby-highlight {
   font-size: 18px;
   line-height: 1.8;
 }
